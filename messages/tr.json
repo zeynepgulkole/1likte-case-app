@@ -2,11 +2,11 @@
 	"Home": {
 		"welcome": "Uygulamaya hoş geldiniz",
 		"title": "1likte Ekibinden tavsiyeler ve yanıtlar",
-		"search" : "Kategorilerde ara",
-		"login" : "Giriş Yap",
-		"egitim" : "Eğitim",
-		"feedback" : "Görüşlerini Bildir",
-		"report" : "Hatayı Bildir"
-		
- 	}
+		"search": "Kategorilerde ara",
+		"login": "Giriş Yap",
+		"egitim": "Eğitim",
+		"feedback": "Görüşlerini Bildir",
+		"report": "Hatayı Bildir",
+		"no-data": "Veri bulunamadı"
+	}
 }

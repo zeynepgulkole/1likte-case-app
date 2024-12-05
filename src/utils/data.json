@@ -1,96 +1,171 @@
 [
-    {
-      "id": 1,
-      "icon" : "1.icon",
-      "title": "Başlarken",
-      "description": "Hesap bilgileri, paketleme ve partner programı",
-      "count" : 13
-    },
-    {
-      "id": 2,
-      "icon" : "2.icon",
-      "title": "Ürün Yönetimi",
-      "description": "Ürün ekleme, silme ve yönetme",
-      "count" : 13
-    },
-    {
-      "id": 3,
-      "icon" : "3.icon",
-      "title": "Sipariş Yönetimi",
-      "description": "Kargo işlemleri, iade ve faturalandırma",
-      "count" : 13
-    },
-    {
-        "id": 4,
-        "icon" : "4.icon",
-        "title": "İade Yönetimi",
-        "description": "Talepler, ihtilaflı iadeler ve süreçler",
-        "count" : 13
-    },
-    {
-        "id": 5,
-        "icon" : "5.icon",
-        "title": "Kargo Ayarları",
-        "description": "Anlaşmalar ve gönderim işlemleri",
-        "count" : 13
-    },
-    {
-        "id": 6,
-        "icon" : "6.icon",
-        "title": "İndirim Yönetimi",
-        "description": "İndirim tipleri, yönetimleri ve avantajları",
-        "count" : 13
-    },
-    {
-        "id": 7,
-        "icon" : "7.icon",
-        "title": "Kampanya Yönetimi",
-        "description": "Kampanyaya ürün ekleme ve kuralları",
-        "count" : 13
-    },
-    {
-        "id": 8,
-        "icon" : "8.icon",
-        "title": "Mağaza Kişiselleştirme",
-        "description": "Kişiselleştirilmiş kullanımı keşfedin",
-        "count" : 13
-    },
-    {
-        "id": 9,
-        "icon" : "9.icon",
-        "title": "Reklam",
-        "description": "Öne çıkmak için ihtiyaç duyduğunuz bilgilere erişin",
-        "count" : 13
-    },
-    {
-        "id": 10,
-        "icon" : "10.icon",
-        "title": "Raporlar ve Hesap Sağlığı",
-        "description": "Satışlarınız ve hesap durumunuz hakkında bilgi alın",
-        "count" : 13
-    },
-    {
-        "id": 11,
-        "icon" : "11.icon",
-        "title": "Mini",
-        "description": "Ürünleriniz için Mini içerik kullanımı",
-        "count" : 13
-    },
-    {
-        "id": 12,
-        "icon" : "12.icon",
-        "title": "Grup Alışverişi",
-        "description": "Oluşturma, yönetme ve kurallar hakkında",
-        "count" : 13
-    },
-    {
-        "id": 13,
-        "icon" : "13.icon",
-        "title": "Finans",
-        "description": "Detaylı fatura ve ödeme bilgilerine ulaşarak süreçleri kolaylaştırın",
-        "count" : 13
-    }
-
-
-  ]
-  
+	{
+		"id": 1,
+		"icon": "1.icon",
+		"title": {
+			"tr": "Başlarken",
+			"en": "Getting Started"
+		},
+		"description": {
+			"tr": "Hesap bilgileri, paketleme ve partner programı",
+			"en": "Account information, packaging, and partner program"
+		},
+		"count": 13
+	},
+	{
+		"id": 2,
+		"icon": "2.icon",
+		"title": {
+			"tr": "Ürün Yönetimi",
+			"en": "Product Management"
+		},
+		"description": {
+			"tr": "Ürün ekleme, silme ve yönetme",
+			"en": "Adding, deleting, and managing products"
+		},
+		"count": 13
+	},
+	{
+		"id": 3,
+		"icon": "3.icon",
+		"title": {
+			"tr": "Sipariş Yönetimi",
+			"en": "Order Management"
+		},
+		"description": {
+			"tr": "Kargo işlemleri, iade ve faturalandırma",
+			"en": "Shipping processes, returns, and invoicing"
+		},
+		"count": 13
+	},
+	{
+		"id": 4,
+		"icon": "4.icon",
+		"title": {
+			"tr": "İade Yönetimi",
+			"en": "Return Management"
+		},
+		"description": {
+			"tr": "Talepler, ihtilaflı iadeler ve süreçler",
+			"en": "Requests, disputed returns, and processes"
+		},
+		"count": 13
+	},
+	{
+		"id": 5,
+		"icon": "5.icon",
+		"title": {
+			"tr": "Kargo Ayarları",
+			"en": "Shipping Settings"
+		},
+		"description": {
+			"tr": "Anlaşmalar ve gönderim işlemleri",
+			"en": "Agreements and shipping processes"
+		},
+		"count": 13
+	},
+	{
+		"id": 6,
+		"icon": "6.icon",
+		"title": {
+			"tr": "İndirim Yönetimi",
+			"en": "Discount Management"
+		},
+		"description": {
+			"tr": "İndirim tipleri, yönetimleri ve avantajları",
+			"en": "Types of discounts, their management, and advantages"
+		},
+		"count": 13
+	},
+	{
+		"id": 7,
+		"icon": "7.icon",
+		"title": {
+			"tr": "Kampanya Yönetimi",
+			"en": "Campaign Management"
+		},
+		"description": {
+			"tr": "Kampanyaya ürün ekleme ve kuralları",
+			"en": "Adding products to campaigns and their rules"
+		},
+		"count": 13
+	},
+	{
+		"id": 8,
+		"icon": "8.icon",
+		"title": {
+			"tr": "Mağaza Kişiselleştirme",
+			"en": "Store Customization"
+		},
+		"description": {
+			"tr": "Kişiselleştirilmiş kullanımı keşfedin",
+			"en": "Explore personalized usage"
+		},
+		"count": 13
+	},
+	{
+		"id": 9,
+		"icon": "9.icon",
+		"title": {
+			"tr": "Reklam",
+			"en": "Advertising"
+		},
+		"description": {
+			"tr": "Öne çıkmak için ihtiyaç duyduğunuz bilgilere erişin",
+			"en": "Access the information you need to stand out"
+		},
+		"count": 13
+	},
+	{
+		"id": 10,
+		"icon": "10.icon",
+		"title": {
+			"tr": "Raporlar ve Hesap Sağlığı",
+			"en": "Reports and Account Health"
+		},
+		"description": {
+			"tr": "Satışlarınız ve hesap durumunuz hakkında bilgi alın",
+			"en": "Get information about your sales and account status"
+		},
+		"count": 13
+	},
+	{
+		"id": 11,
+		"icon": "11.icon",
+		"title": {
+			"tr": "Mini",
+			"en": "Mini"
+		},
+		"description": {
+			"tr": "Ürünleriniz için Mini içerik kullanımı",
+			"en": "Using Mini content for your products"
+		},
+		"count": 13
+	},
+	{
+		"id": 12,
+		"icon": "12.icon",
+		"title": {
+			"tr": "Grup Alışverişi",
+			"en": "Group Shopping"
+		},
+		"description": {
+			"tr": "Oluşturma, yönetme ve kurallar hakkında",
+			"en": "Creation, management, and rules"
+		},
+		"count": 13
+	},
+	{
+		"id": 13,
+		"icon": "13.icon",
+		"title": {
+			"tr": "Finans",
+			"en": "Finance"
+		},
+		"description": {
+			"tr": "Detaylı fatura ve ödeme bilgilerine ulaşarak süreçleri kolaylaştırın",
+			"en": "Access detailed invoice and payment information to simplify processes"
+		},
+		"count": 13
+	}
+]

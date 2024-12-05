@@ -3,10 +3,11 @@ import { useTranslations } from "next-intl";
 
 interface SearchBarProps {
 	onSearch: (query: string) => void;
+	defaultValue?: string;
 }
 
-export default function SearchBar({ onSearch }: SearchBarProps) {
-	const [query, setQuery] = useState("");
+export default function SearchBar({ onSearch, defaultValue }: SearchBarProps) {
+	const [query, setQuery] = useState(defaultValue ?? "");
 	const t = useTranslations("Home");
 
 	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {

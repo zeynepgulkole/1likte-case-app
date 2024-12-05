@@ -1,14 +1,12 @@
 "use client";
-import React, { useState } from "react";
-import { useLocale } from "next-intl";
-import { useTransition } from "react";
+import React, { useTransition } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { Locale } from "@/i18n/config";
 import { setUserLocale } from "@/services/locale";
-import { useTranslations } from "next-intl";
 
 export default function Navbar() {
+	const locale = useLocale();
 	const [isPending, startTransition] = useTransition();
-	const [query, setQuery] = useState("");
 	const t = useTranslations("Home");
 
 	function onChange(value: string) {
@@ -17,8 +15,6 @@ export default function Navbar() {
 			await setUserLocale(locale);
 		});
 	}
-
-	const locale = useLocale();
 
 	return (
 		<header className="bg-black text-white py-5">
@@ -70,7 +66,6 @@ export default function Navbar() {
 						<option value="en">English</option>
 					</select>
 					<button className="text-sm">{t("login")}</button>
-					
 				</div>
 			</div>
 		</header>
