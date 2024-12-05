@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslations } from "next-intl";
+
 
 export default function Footer() {
+  const t = useTranslations("Home");
   return (
     <div>
         <footer className="border-t mt-16 py-8">
@@ -14,8 +17,8 @@ export default function Footer() {
           />
           <div className="flex flex-col justify-between items-center gap-5">
             <div className="flex gap-4">
-              <a href="#" className="text-sm text-[#6B7280] hover:text-gray-900">Görüşlerini Bildir</a>
-              <a href="#" className="text-sm text-[#6B7280] hover:text-gray-900">Hata Bildir</a>
+              <a href="#" className="text-sm text-[#6B7280] hover:text-gray-900">{t("feedback")}</a>
+              <a href="#" className="text-sm text-[#6B7280] hover:text-gray-900">{t("report")}</a>
             </div>
             <div className="flex gap-4">
               <a href="#" className="text-gray-600 hover:text-gray-900">

@@ -4,6 +4,9 @@
 		"title": "Advice and answers from the 1likte Team",
 		"search": "Search in categories",
 		"login" : "Log in", 
-		"egitim" : "Education"
+		"egitim" : "Education",
+		"feedback" : "Give Your Feedback",
+		"report" : "Report Error"
+
 	}
 }
