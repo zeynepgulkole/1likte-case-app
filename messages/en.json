@@ -1,0 +1,9 @@
+{
+	"Home": {
+		"welcome": "Welcome to the app",
+		"title": "Advice and answers from the 1likte Team",
+		"search": "Search in categories",
+		"login" : "Log in", 
+		"egitim" : "Education"
+	}
+}

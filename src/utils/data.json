@@ -1,0 +1,96 @@
+[
+    {
+      "id": 1,
+      "icon" : "1.icon",
+      "title": "Başlarken",
+      "description": "Hesap bilgileri, paketleme ve partner programı",
+      "count" : 13
+    },
+    {
+      "id": 2,
+      "icon" : "2.icon",
+      "title": "Ürün Yönetimi",
+      "description": "Ürün ekleme, silme ve yönetme",
+      "count" : 13
+    },
+    {
+      "id": 3,
+      "icon" : "3.icon",
+      "title": "Sipariş Yönetimi",
+      "description": "Kargo işlemleri, iade ve faturalandırma",
+      "count" : 13
+    },
+    {
+        "id": 4,
+        "icon" : "4.icon",
+        "title": "İade Yönetimi",
+        "description": "Talepler, ihtilaflı iadeler ve süreçler",
+        "count" : 13
+    },
+    {
+        "id": 5,
+        "icon" : "5.icon",
+        "title": "Kargo Ayarları",
+        "description": "Anlaşmalar ve gönderim işlemleri",
+        "count" : 13
+    },
+    {
+        "id": 6,
+        "icon" : "6.icon",
+        "title": "İndirim Yönetimi",
+        "description": "İndirim tipleri, yönetimleri ve avantajları",
+        "count" : 13
+    },
+    {
+        "id": 7,
+        "icon" : "7.icon",
+        "title": "Kampanya Yönetimi",
+        "description": "Kampanyaya ürün ekleme ve kuralları",
+        "count" : 13
+    },
+    {
+        "id": 8,
+        "icon" : "8.icon",
+        "title": "Mağaza Kişiselleştirme",
+        "description": "Kişiselleştirilmiş kullanımı keşfedin",
+        "count" : 13
+    },
+    {
+        "id": 9,
+        "icon" : "9.icon",
+        "title": "Reklam",
+        "description": "Öne çıkmak için ihtiyaç duyduğunuz bilgilere erişin",
+        "count" : 13
+    },
+    {
+        "id": 10,
+        "icon" : "10.icon",
+        "title": "Raporlar ve Hesap Sağlığı",
+        "description": "Satışlarınız ve hesap durumunuz hakkında bilgi alın",
+        "count" : 13
+    },
+    {
+        "id": 11,
+        "icon" : "11.icon",
+        "title": "Mini",
+        "description": "Ürünleriniz için Mini içerik kullanımı",
+        "count" : 13
+    },
+    {
+        "id": 12,
+        "icon" : "12.icon",
+        "title": "Grup Alışverişi",
+        "description": "Oluşturma, yönetme ve kurallar hakkında",
+        "count" : 13
+    },
+    {
+        "id": 13,
+        "icon" : "13.icon",
+        "title": "Finans",
+        "description": "Detaylı fatura ve ödeme bilgilerine ulaşarak süreçleri kolaylaştırın",
+        "count" : 13
+    }
+
+
+  ]
+  
